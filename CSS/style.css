@@ -1,0 +1,59 @@
+
+    body{
+      background-color: snow;
+      font-family: Arial sans-serif;
+      margin: 0;
+      padding:0 ;
+    }
+    nav{
+      background-color:olive ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+     nav ul {
+       display: flex;
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+     }
+     nav ul li{
+       margin: 0 20px;
+     }
+     nav ul li a{
+       text-decoration: none;
+       font-size: 21px;
+       font-weight: bold;
+       color: black;
+       padding: 10px 20px;
+       border-radius: 50px;
+     }
+     nav ul li a:hover{
+       background-color: white;
+     }
+     h2{
+       background-color: cornflowerblue;
+       display: flex;
+       justify-content: center;
+       padding: 10px 10px;
+     }
+     p{
+       background-color: lavender;
+       display: flex;
+       margin: 0;
+       padding: 0;
+     }
+     p2{
+       background-color: lavender;
+       display: flex;
+       margin: 0;
+       padding: 0;
+     }
+    .background_image{
+      background-image: url("https://cdn.pixabay.com/photo/2016/11/14/03/05/surgery-1822458_960_720.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 550px;
+      border-radius: 20px;
+      margin: 20px;
+    }
